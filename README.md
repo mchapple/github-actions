@@ -1,2 +1,2 @@
 # github-actions
-Repo for github actions training
+Repo for base level github actions training
