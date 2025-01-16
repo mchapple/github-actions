@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   #   pull_request:
   schedule:
-    - cron: "59 23 * * *"
+    - cron: "59 23 * * 1-5"
 
 jobs:
   echo:
