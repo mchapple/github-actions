@@ -1,0 +1,10 @@
+name: 04 - Using Actions
+
+on: push
+
+jobs:
+  checkout-code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Using the Checkout Action
+        uses: actions/checkout@v4
