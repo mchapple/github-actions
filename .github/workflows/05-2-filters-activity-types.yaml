@@ -7,8 +7,8 @@ on:
     branches: main
 
 jobs:
-  echo-hello:
+  echo:
     runs-on: ubuntu-latest
     steps:
-      - name: closed
+      - name: Closed PR
         run: echo "Running whenever a PR is closed"
