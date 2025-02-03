@@ -1,10 +1,11 @@
 name: 05 Event Filters and Activity Types
 
 on:
-  pull_request:
-    types: [opened, synchronize]
-    # Sequence of patterns matched against refs/heads
-    branches: main
+  workflow_dispatch:
+#   pull_request:
+#     types: [opened, synchronize]
+#     # Sequence of patterns matched against refs/heads
+#     branches: main
 
 jobs:
   echo:
