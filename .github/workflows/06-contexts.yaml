@@ -1,4 +1,4 @@
-name: 06 - Contexts
+name: 06 Contexts
 
 on:
   - workflow_dispatch
@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Display Information
         run: |
+          echo "### DISPLAY INFO ###"
           echo "Event name: ${{ github.event_name }} "
           echo "Ref: ${{ github.ref }} "
           echo "SHA: ${{ github.sha }} "
