@@ -19,6 +19,7 @@ jobs:
     steps:
       - name: Running unit tests
         run: echo "Running tests..."
+        continue-on-error: true
       - name: Failing tests
         if: ${{ !inputs.pass-unit-tests}}
         run: exit 1
