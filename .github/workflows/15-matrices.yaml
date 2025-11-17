@@ -43,6 +43,9 @@ jobs:
         include:
           - os: ubuntu-latest
             node-version: 16.x
+        exclude:
+          - os: windows-latest
+            node-version: 18.x
     steps:
       - name: Setup node
         uses: actions/setup-node@v4
