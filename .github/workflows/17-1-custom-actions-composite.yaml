@@ -4,13 +4,6 @@ run-name: "17 - 1 - Custom Actions - Composite | env: - ${{ inputs.target-env}}"
 
 on:
     workflow_dispatch:
-        inputs:
-            target-env:
-                type: choice
-                description: environment to deploy into
-                options:
-                    - dev
-                    - prod
 
 env:
     working-directory: 17-custom-actions/react-app
