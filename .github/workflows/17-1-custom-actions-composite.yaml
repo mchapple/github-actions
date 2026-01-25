@@ -1,4 +1,5 @@
 name: 17 - Custom Actions - Composite
+run-name: 17 - 1 - Custom Actions - Composite | env - ${{ inputs.target-env }}
 
 # See 17-custom-actions/README.md for more information
 # about how to create and use custom actions in workflows.
