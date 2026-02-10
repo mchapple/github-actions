@@ -13,7 +13,11 @@ on:
       working-directory:
         type: string
         default: 17-custom-actions/react-app
-
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  packages: write
 jobs:
   dependency-update:
     runs-on: ubuntu-latest
